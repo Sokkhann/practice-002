@@ -44,7 +44,7 @@ export const cardUser = (user) => {
     return `
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-            <img src="${user?.image || cardPlaceholder}" alt="" />
+            <img class =" w-96 h-[380px] rounded-t-lg" src="${user?.image || cardPlaceholder}" alt="" />
         </a>
         <div class="p-5">
             <a href="#">
